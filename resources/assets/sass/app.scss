@@ -13,6 +13,7 @@
 // Partials
 @import 'partials/navbar';
 @import 'partials/banner';
+@import 'partials/contact';
 @import 'partials/footer';
 @import 'partials/buttons';
 @import 'partials/embedresponsively';
@@ -45,6 +46,8 @@ hr{
 }
 
 .container-inner{
+  padding-left:15px;
+  padding-right:15px;
   @media (min-width: 768px) {
     padding-left:76px;
     padding-right:76px;
